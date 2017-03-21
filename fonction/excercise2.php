@@ -6,11 +6,11 @@
 </head>
 <body>
 	<?php 
-		function vrais($string1, $string2 = "c'est pas vrais"){
-			return $string1.$string2;
+		function vrais($true = "c'est pas vrais"){
+			return $true;
 		}
 
-		print vrais("coucou ");
+		print vrais();
 	 ?>
 </body>
 </html>
