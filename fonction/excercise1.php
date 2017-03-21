@@ -5,6 +5,12 @@
 	<title>fonction1</title>
 </head>
 <body>
-	
+	<?php 
+		function sayReturn($true){
+			return "$true";
+		}
+
+		print sayReturn("true");
+	 ?>
 </body>
 </html>
