@@ -6,10 +6,20 @@
 </head>
 <body>
 	<?php 
-		function vrais($string1, $string2 = "c'est pas vrais"){
-			return $string1.$string2;
+		function nombre($nb1, $nb2){
+			if ($nb1 > $nb2) {
+				return "C'est trop grand";
+			}
+
+			else if($nb1<$nb2){
+				return "C'est plus petit";
+			}
+
+			else {
+				return "C'est identique";
+			}
 		}
-		print vrais("coucou ");
+		print nombre(20, 20);
 	 ?>
 </body>
 </html>
