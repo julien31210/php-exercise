@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>loop3</title>
+	<title>loop4</title>
 </head>
 <body>
 	<?php
