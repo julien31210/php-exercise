@@ -6,11 +6,11 @@
 </head>
 <body>
 	<?php 
-		if ($_GET["batiment"] && $_GET["salle"]) {
-			echo "Dans le batiment ". $_GET["batiment"]." c'est apprentissage d'essorage de chaussettes salle ". $_GET["salle"].".";
+		if ($_GET["semaine"]) {
+			echo "La semaine ". $_GET["semaine"]." c'est pour partir à l'aventure.";
 		}
 		else{
-			echo "Dans le batiment 12, allez à la salle 101 c'est cours de torture :D";
+			echo "La semaine 12 à été inventée par les illuminatis";
 		}
 	 ?>
 </body>
